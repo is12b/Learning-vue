@@ -1,0 +1,27 @@
+body {
+  margin: 5px;
+}
+
+.layout-main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 7rem 2rem 2rem 4rem;
+  margin-left: 250px;
+}
+
+.layout-main {
+  flex: 1 1 auto;
+}
+
+.layout-sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  z-index: 999;
+  overflow-y: auto;
+  user-select: none;
+  left: 0;
+  top: 0;
+}
